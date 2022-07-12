@@ -1,0 +1,22 @@
+.sobre {
+    display: flex;
+    padding: 30px 100px;
+    align-items: center;
+    gap: 0 70px;
+}
+
+.sobre-imagem {
+    width: 30%;
+}
+
+.sobre-titulo {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.sobre-texto {
+    padding: 0 20px;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
