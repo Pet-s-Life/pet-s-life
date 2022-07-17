@@ -11,6 +11,8 @@
 
 .cabecalho-lista {
     display: flex;
+    text-decoration: none;
+
 }
 
 .cabecalho-item {
