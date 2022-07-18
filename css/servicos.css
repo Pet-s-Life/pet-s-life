@@ -1,6 +1,12 @@
 body {
     background-color: #FFE8EC;
-    dis
+
+}
+.servicos-titulo {
+    font-size: 2rem;
+    margin-left: 2%;
+    margin: 5%;
+    font-weight: bold;
 }
 .servicos-img {
     max-width: 50%;
