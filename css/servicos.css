@@ -17,6 +17,7 @@
 
 .servicos-img {
    order: -1;
+   border-radius: 10px;
 }
 
 .servicos-lista {
