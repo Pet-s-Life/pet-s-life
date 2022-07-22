@@ -1,27 +1,26 @@
-body {
-    background-color: #FFE8EC;
-
+.servicos {
+    background-color: #FFFAFA;
+    padding: 50px 0;
 }
+
+.servicos-conteudo {
+    
+    display: flex;
+    justify-content: center;
+}
+
 .servicos-titulo {
-    font-size: 2rem;
-    margin-left: 2%;
-    margin: 5%;
-    font-weight: bold;
+    text-align: center;
 }
-.servicos-img {
-    max-width: 50%;
-    height: 70%;
-    border-radius: 10px;
-    float: right;
-    margin: 5%;
-}
-.servicos-lista {
-    margin: 5%;
-    float: left;
-}
-.servicos-item {
-    margin: 5%;
-    font-size: 2rem;
- 
 
+.servicos-img {
+   
+}
+
+.servicos-lista {
+   
+}
+
+.servicos-item {
+    font-size: 2rem;
 }
