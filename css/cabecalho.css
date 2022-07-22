@@ -12,10 +12,17 @@
 .cabecalho-lista {
     display: flex;
     text-decoration: none;
-
 }
 
 .cabecalho-item {
     margin: 0 40px;
     font-size: 1.7rem;
+    text-transform: capitalize;
+    transition: 500ms;
+}
+
+.cabecalho-item:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #FF86C7;
 }
