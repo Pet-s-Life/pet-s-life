@@ -8,7 +8,6 @@
 .agendamento-formulario {
     display: flex;
     flex-direction: column;
-    
 }
 
 .agendamento-titulo {
@@ -27,7 +26,25 @@
     border-radius: 5px;
     border-color: #FFFFFF;
     border-style: solid;
-    
+}
+
+.formulario-selecao {
+    display: flex;
+    align-items: baseline;
+}
+
+.formulario-selecao p {
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+
+.agendamento-selecao {
+    width: 70%;
+    padding: 14px 18px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    border-style: solid;
 }
 
 .agendamento-imagem {
