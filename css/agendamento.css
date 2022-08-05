@@ -1,5 +1,8 @@
 .agendamento {
+    padding: 60px 0;
     padding-left: 60px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .agendamento-formulario {
@@ -14,11 +17,19 @@
     text-align: center;
 }
 
+.agendamento-texto {
+    font-size: 1.3rem;
+}
+
 .agendamento-campo {
     margin-bottom: 30px;
-    padding: 10px 15px;
+    padding: 14px 18px;
     border-radius: 5px;
     border-color: #FFFFFF;
     border-style: solid;
     
+}
+
+.agendamento-imagem {
+    width: 35%;
 }
