@@ -4,6 +4,10 @@
     background-color: #FFFAFA;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .cabecalho-menu {
     position: absolute;
     right: 60px;
