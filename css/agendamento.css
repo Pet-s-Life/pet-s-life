@@ -1,0 +1,4 @@
+.agendamento {
+   display: flex;
+   flex-direction: column;
+}
