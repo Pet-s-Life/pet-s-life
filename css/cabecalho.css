@@ -30,3 +30,28 @@
     transform: scale(1.2);
     color: #FF86C7;
 }
+
+@media screen and (min-width: 200px) {
+    .cabecalho {
+        text-align: center;
+    }
+
+    .cabecalho-conteudo {
+        display: block;
+    }
+
+    .cabecalho-menu {
+        right: 0;
+        position: static;
+    }
+
+    .cabecalho-lista {
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    .cabecalho-item {
+        margin: 10px 0;
+        font-size: 1.9rem;
+    }
+}
