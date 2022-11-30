@@ -16,7 +16,7 @@
     font-size: 1.3rem;
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 800px)  {
     .produto-lista {
         flex-direction: column;
     }

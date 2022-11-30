@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 800px)  {
     .sobre {
         padding: 60px 0;
         gap: 0;
