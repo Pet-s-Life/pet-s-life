@@ -16,7 +16,7 @@
     font-size: 1.3rem;
 }
 
-@media screen and (min-width: 800px)  {
+@media screen and (min-width: 200px) {
     .produto-lista {
         flex-direction: column;
     }
@@ -27,5 +27,20 @@
 
     .seta {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .produto-lista {
+        flex-direction: row;
+    }
+
+    .produto-item:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .seta {
+        display: inherit;
     }
 }
