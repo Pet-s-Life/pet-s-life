@@ -1,27 +1,4 @@
-.sobre {
-    padding: 0 100px;
-    gap: 0 70px;
-}
-
-.sobre-conteudo {
-    padding: 100px 0;
-    display: flex;
-    align-items: center;
-}
-
-.sobre-imagem {
-    width: 30%;
-    border-radius: 10px;
-}
-
-.sobre-texto {
-    padding: 0 180px;
-    margin: 20px 0;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-@media screen and (min-width: 800px)  {
+@media screen and (min-width: 200px) {
     .sobre {
         padding: 60px 0;
         gap: 0;
@@ -43,5 +20,30 @@
     .sobre-texto {
         font-size: 0.8rem;
         margin: 50px 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+       .sobre {
+        padding: 0 100px;
+        gap: 0 70px;
+    }
+
+    .sobre-conteudo {
+        padding: 100px 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sobre-imagem {
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .sobre-texto {
+        padding: 0 180px;
+        margin: 20px 0;
+        font-size: 1.5rem;
+        text-align: center;
     }
 }
