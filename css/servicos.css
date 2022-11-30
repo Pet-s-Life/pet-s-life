@@ -20,6 +20,10 @@
         text-align: center;
     }
 
+    .servicos-item:before {
+        content: "🐾";
+    }
+
     .servicos-img {
         margin-top: 40px;
     }
